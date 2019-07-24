@@ -1,0 +1,36 @@
+Add SWF (To add unsporrted media files)
+DISQUIS (A commenting plugin to enchance commenting)
+disable comments
+Enhanced media libarary
+Media libaray assistant (to add unsporrted files)
+NextGen Gallery (important)
+TinyMCE ( To add buttons in the toolbar)
+polylang
+Vaultpress
+sucuri
+login lockdown
+w3 total cache
+MaxCDN
+Yoast SEO
+WPForms
+MailChimp
+MonsterInsight
+Frame buster
+ThirstyAffliate
+compact archieve
+Akismet
+no self ping
+edit flow
+Members
+woocommerce
+Elementor
+smart slider
+post grid
+wps hide login
+
+
+Themes
+
+hueman
+OceanWP
+StoreVilla
