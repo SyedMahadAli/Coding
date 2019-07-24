@@ -1,0 +1,73 @@
+<strong> </strong>  <em> </em>
+
+<figure>  <img src=" " alt=" ">   <figcaption> ....  </figcaption>    </figure>
+
+<hr>
+
+websites to find images:
+https://stock.adobe.com/
+https://www.shutterstock.com/
+https://www.istockphoto.com/
+https://www.gettyimages.com/
+https://www.fotolia.com/
+https://picography.co/
+
+They are two type of Elements 
+1. Block Level (Heading <h1> etc, paragraphs <p>, Lists <ol> <u>l <li> , Structreing elements <header>, <nav> etc.  )
+ <div> is a block level element
+2. Inline Level ( <img>, <strong> , <em> , <a>
+
+Method to add a site favicon icon on the html page:
+<link href="favicon.ico type="image/x-icon" rel="shortcut icon">
+
+Comments:
+<!--    -->
+
+selector: the HTML element you want to modify. It's called a "selector" because you're selecting the element. Fancy that!
+property: the element's CSS property you want to modify, like its color, spacing, etc.
+value: the new value of the CSS property, like "blue" for its color.
+
+Sometimes, you will see rgba() colors that include a fourth value as well. The fourth value controls opacity (e.g. how transparent it is).
+ To create a color that is halfway opaque, you would write color: rgba(27, 218, 118, 0.5);
+
+css:
+font-family: 'font name'
+
+Font Squirrel: https://www.fontsquirrel.com/
+Google Fonts: https://fonts.google.com/
+Urban Fonts: https://www.urbanfonts.com/
+
+To include an installed font as part of your project, you need to define a font-face rule (starting with an @ sign) that defines the font family and the location of the downloaded font file:
+
+@font-face {
+    font-family: 'Milkshake';
+    src: url('fonts/milkshake.otf');
+}
+
+h1 {
+    font-family: Milkshake;
+}
+text-decoration:
+It can take multiple values:
+underline
+none
+line-through
+a {
+    text-decoration: wavy underline;
+}
+
+text-transform: uppercase/lowercase;
+font-weight:400;
+
+a:visited {
+    color: #858C7B;
+}
+a:hover {
+    color: #151814;
+    background-color: #DFFFD6;
+    text-transform: uppercase;
+    font-weight: normal;
+}
+a:active {
+    background-color: #F3FFE1;
+}
