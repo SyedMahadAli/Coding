@@ -1,0 +1,11 @@
+websites
+beingguru
+techjuice
+
+
+Plugins:
+empty Trash
+duplicate post
+remove category Url
+category for pages
+page builder by siteOrigin

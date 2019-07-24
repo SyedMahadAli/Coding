@@ -1,0 +1,110 @@
+jsbin.com For testing the js code snippet.
+0. camel case naming convention:-
+is a technique , where vaiable nme made up of multiple words where every word except the first 
+one is capitalized.
+
+let keyword is used to declare the variable name in js, For Example,  let numberOfCats
+var keyword is other name to create variables.
+
+console.log(variable_name) to print the value.
+
+import { numberOfSeasons, numberOfEpisodes } from './variables.js';
+
+export { totalShowTime };
+
+const keyword is use to declare constant values.
+
+Strings can also be concatenated (one added to the end of another) using the + operator:
+let wholeName = firstName + ' ' + lastName;  // value: "Will Alexander"
+we can only use + operater with the strings only.
+
+JSON (javascript Object Notation)
+example of object in js:
+let myBook = {
+    title: 'The Story of Tau',
+    author: 'Will Alexander',
+    numberOfPages: 250,
+    isAvailable: true
+};
+
+class keyword is used to make class in js.
+
+In JavaScript, primitive types like numbers, booleans, and strings are passed by value. whereas
+array & objects are pass by reference.
+
+push element with the array is allow us to add new element to the array. 
+for example, let guest = [ 'Ali' , 'Ahmad'] ;     guest.push( 'Ahmed');
+
+push element is used to add new element at the end of array, Whereas  unshift element is used to 
+add new element at the beggining of array .      guest.unshift('Ahmed');
+
+pop method is used to delete the final element in the array. 
+guest.pop();
+
+In JavaScript, a set is an unordered list.  This means that you cannot reliably retrieve specific list elements,
+as they do not have a fixed index. Instead, you can add and remove elements (duplicates are not allowed),
+and check whether a set contains a certain element or not.  Sets can come in handy for things like storing
+which users are online at a given time so you can check if they are or not.
+
+On the other hand, a map is an ordered list of key/value pairs. While this sounds like an object, there are some important differences. 
+For example, keys can be any value (not just strings) in maps;
+you can easily find its  size, and its key/value pairs can be filtered or modified in certain circumstances.
+
+There are ways of checking if two values are equal in JavaScript:  ==  and  ===, also known as loose equality and strict equality.
+
+Loose equality checks value, but not type. Therefore, this returns  true:
+5 == '5'
+
+On the other hand, strict equality checks value and type. Therefore:
+5 === '5'
+returns  false.
+
+Similarly, there are two not-equal operators  !=  and  !==  with the same distinction.
+
+try { 
+} 
+catch( ) {
+} is used to find the errors in the program
+
+		Activity:-
+ class Book {
+	constructor(title,author,pages,description,currentpage,read) {
+            this.title = title;
+            this.author = author;
+            this.pages = pages;
+            this.description = description;
+            this.currentPage = currentPage;
+            this.read = read;	
+}
+   readBook(pageNumber){
+     if (pageNumber > this.pages || pageNumber < 0){
+       alert("invalid page number");
+     }
+     else
+       {
+         this.currentPage = pageNumber;
+             if(this.currentPage === pageNumber){
+                 this.read = true;
+         }
+       }
+   }
+
+}
+
+export { Book };
+
+
+
+
+import { Book } from './Book.js';
+
+let bookOne = new Book('HTML','Jhon',150,'This book is for those who want to learn html',0,false);
+
+let bookTwo = new Book('CSS','Camron',180,'This book is about css',0,false);
+
+let bookThree = new Book('JavaSript','William',200,'This book is for JS',0,false);
+
+let bookFour = new Book('ReactJs','will',150,'This book is about reactjs',0,false);
+
+export { bookList };
+
